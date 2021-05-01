@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "udemy-player-right",
+  "version": "0.1.0",
+  "description": "Align Udemy's video player right side on the page",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.udemy.com/course/**"]
+  }]
+
+}
